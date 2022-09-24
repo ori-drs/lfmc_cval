@@ -18,10 +18,3 @@ add_library(${PROJECT_NAME} SHARED ${SOURCES} ${HEADERS})
 
 target_link_libraries(${PROJECT_NAME} PUBLIC ${YAML_CPP_LIBRARIES})
 
-### RaiSim Executable
-list(APPEND CMAKE_PREFIX_PATH $ENV{LOCAL_INSTALL})
-
-find_package(raisim CONFIG REQUIRED)
-
-add_executable(command_tracking examples/command_tracking.cpp)
-target_link_libraries(command_tracking PUBLIC ${PROJECT_NAME} stdc++fs raisim::raisim pthread)
