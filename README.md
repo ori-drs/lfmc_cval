@@ -8,6 +8,10 @@ example that requires [Raisim](https://raisim.com/) while
 the ```library``` branch contains the minimal implementation
 of the controller. 
 
+Project website: https://ori-drs.github.io/lfmc/
+
+---
+
 ### Prerequisites
 The deployment code depnds on [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)
 and [YAML-CPP](https://github.com/jbeder/yaml-cpp). These can be installed in Ubuntu like so:
