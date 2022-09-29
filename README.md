@@ -77,8 +77,6 @@ at different frequencies soon.
     └── include                         # C++ header files
         ├── lfmc
             └── Controller.hpp          # LFMC controller interface class declaration
-    └── raisim_gym_torch                # Python wrapper for Raisim-C++ env and PPO implementation
-        ├── ...
     └── models                          # Robot URDFs
     └── parameters                      # Neural network parameters for locomotion and actuation
     └── src                             # C++ source files
