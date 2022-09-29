@@ -8,7 +8,9 @@ example that requires [Raisim](https://raisim.com/) while
 the ```library``` branch contains the minimal implementation
 of the controller. 
 
-Project website: https://ori-drs.github.io/lfmc/
+Project website: https://ori-drs.github.io/lfmc/ </br>
+Training repository: https://github.com/ori-drs/lfmc_gym </br>
+Deployment (Python): https://github.com/ori-drs/lfmc_pyval </br>
 
 ---
 
