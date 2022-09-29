@@ -8,7 +8,7 @@ example that requires [Raisim](https://raisim.com/) while
 the ```library``` branch contains the minimal implementation
 of the controller. 
 
-#### Prerequisites
+### Prerequisites
 The deployment code depnds on [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)
 and [YAML-CPP](https://github.com/jbeder/yaml-cpp). These can be installed in Ubuntu like so:
 ```bash
@@ -21,7 +21,7 @@ for install instructions. Based on the documentation,
 we will assume that Raisim has been installed in a directory
 called ```$LOCAL_INSTALL```.
 
-#### Clone
+### Clone
 To clone ```lfmc_cval```, use the following command. Note that, 
 this repository depends upon a neural network implementation
 written in C++ called [```networks_minimal```](https://github.com/gsiddhant/networks_minimal) 
@@ -32,7 +32,7 @@ use ```--recurse-submodule``` flag while cloning the repository.
 git clone --recurse-submodules git@github.com:ori-drs/lfmc_cval.git
 ```
 
-#### Build
+### Build
 Upon cloning the repository, we build the library and executable in the
 ```build``` folder. 
 ```bash
@@ -54,7 +54,7 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j4
 ```
 
-#### Execute
+### Execute
 To run the example code, you will first have to launch the ```RaisimUnity``` visualizer. 
 Make sure you have checked the Auto-connect option in RaisimUnity and then 
 execute the following command. 
